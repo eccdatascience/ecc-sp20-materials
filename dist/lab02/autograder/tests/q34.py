@@ -1,5 +1,5 @@
 test = {   'name': 'q34',
-    'points': 1,
+    'points': None,
     'suites': [   {   'cases': [   {'code': '>>> farmers_markets_without_fmid.num_columns == 57\nTrue', 'hidden': False, 'locked': False},
                                    {   'code': '>>> print(sorted(farmers_markets_without_fmid.labels))\n'
                                                "['Bakedgoods', 'Beans', 'Cheese', 'Coffee', 'County', 'Crafts', 'Credit', 'Eggs', 'Facebook', 'Flowers', 'Fruits', 'Grains', 'Herbs', 'Honey', 'Jams', "

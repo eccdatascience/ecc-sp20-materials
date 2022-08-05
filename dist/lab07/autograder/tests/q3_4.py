@@ -1,5 +1,5 @@
 test = {   'name': 'q3_4',
-    'points': 1,
+    'points': None,
     'suites': [   {   'cases': [   {'code': '>>> isinstance(postban_rates, Table)\nTrue', 'hidden': False, 'locked': False},
                                    {'code': '>>> postban_rates.num_rows == 44\nTrue', 'hidden': False, 'locked': False},
                                    {'code': '>>> np.all(postban_rates.column("Death Penalty") == False)\nTrue', 'hidden': False, 'locked': False},

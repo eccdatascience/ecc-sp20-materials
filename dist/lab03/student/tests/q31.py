@@ -1,5 +1,5 @@
 test = {   'name': 'q31',
-    'points': 1,
+    'points': None,
     'suites': [   {   'cases': [   {'code': '>>> type(top_10_movies) == tables.Table\nTrue', 'hidden': False, 'locked': False},
                                    {   'code': ">>> top_10_movies.select('Rating', 'Name').sort('Name')\n"
                                                'Rating | Name\n'

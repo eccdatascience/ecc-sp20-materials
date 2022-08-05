@@ -1,5 +1,5 @@
 test = {   'name': 'q32',
-    'points': 1,
+    'points': None,
     'suites': [   {   'cases': [   {'code': '>>> type(imdb) == tables.Table\nTrue', 'hidden': False, 'locked': False},
                                    {'code': '>>> imdb.num_rows == 250\nTrue', 'hidden': False, 'locked': False},
                                    {   'code': ">>> imdb.select('Votes', 'Rating', 'Title', 'Year', 'Decade').sort(0).take(range(2,5))\n"
